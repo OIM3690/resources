@@ -77,4 +77,5 @@ We will be working mostly with the [Chrome web browser](https://www.google.com/c
 - [Modern CSS Explained For Dinosaurs](https://medium.com/actualize-network/modern-css-explained-for-dinosaurs-5226febe3525)
 - [Web Architecture 101](https://engineering.videoblocks.com/web-architecture-101-a3224e126947)
 - [The CSS Handbook: a handy guide to CSS for developers](https://www.freecodecamp.org/news/the-css-handbook-a-handy-guide-to-css-for-developers-b56695917d11/)
+- [CSS Snippets](https://www.30secondsofcode.org/css/p/1)
 - ...
