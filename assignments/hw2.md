@@ -1,5 +1,5 @@
 # OIM3690 Web Technologies - 2023 Spring - Homework 2
----
+
 **Note**: all *.html* files required below should be located under *WebTech* folder. All *.css* files should be located under *WebTech/styles* folder. All images files should be located under *WebTech/images* folder.
 
 ## General Instructions:
@@ -11,7 +11,7 @@
 
 ## 1. Table (20 points)
 
-Create the table shown below. You can find the pictures of all the products in [images](./images) folder. All styles must be done with external CSS **only**. 
+Create the table shown below. You can find the pictures of all the products in [images](./images) folder. All styles must be done with internal CSS or external CSS. **Inline CSS is not allowed.**
 
 - Table should be centered.
 - Height of each `tr` should be `20vh`.
@@ -64,7 +64,7 @@ Replicate the navigation bar of the [homepage](https://www.apple.com/) of Apple 
 - You don't need to implement **search** functionality. You can create an invalid link instead.
 - This is a challenging task. It is acceptable if you cannot replicate the original one 100%.
 - If you can replicate the rest of the homepage of Apple, feel free to do so and extra credits will be awarded according.
-- Save it as `hw2-4.html`under the `WebTech` folder. 
+- Save it as `hw2-4.html` under the `WebTech` folder. 
 
 
 ## 5. Redesign *index.html* (20 points)
@@ -76,7 +76,7 @@ Replicate the navigation bar of the [homepage](https://www.apple.com/) of Apple 
   - The horizontal nav bar should have multiple links, including "Home" (linking to "#" which means the current page), "About Me", "My Interests", "Contact Information" (linking to different sections in the page according), and a dropdown menu. 
   - The dropdown menu should be labeled "Homework 2", and have the following options: "hw2-1", "hw2-2", "hw2-3" and "hw2-4" (linking to the HTML files created for this assignment accordingly). Check out the [example](https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar) on W3Schools. 
   - Use appropriate CSS styling to customize the appearance of the navigation bar.
-  - Consider making the navigation bar sticky to the top of the page (optional).
+  - (Optional) Consider making the navigation bar sticky to the top of the page .
 
 ## 6. Additional Requirements
 1. If you use any new HTML tags or attributes that we have not covered in class, add an HTML comment next to the element describing the new tag/attribute and where you learned it from.
