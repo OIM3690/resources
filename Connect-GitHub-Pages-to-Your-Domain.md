@@ -1,7 +1,7 @@
 # Process for setting up github pages with your domain
 
 1. Domain Provider DNS Settings (after acquiring a domain): 
-   1. Login to NameCheap.com (or any domain provider website where you purchase/get your domain from).
+   1. Login to NameCheap.com (or any domain provider website where you purchase/get your domain from). Note: The following terms used in different websites may vary slightly.
    2. Navigate to **Account** - **dashboard**.
    3. Click on **Domain List**.
    4. Click the **Manage** button next to your domain. (The button could be under "Quick Links".)
