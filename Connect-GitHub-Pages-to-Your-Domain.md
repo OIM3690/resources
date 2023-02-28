@@ -14,6 +14,6 @@
    2. Go to GitHub porject repository page. 
    3. Click **Settings**.
    4. Click **Pages** on the left panel.
-   5. For **Branch** (not Source), select `main`. 
+   5. For **Branch** (not Source), select `main`. Click `Save`. 
    6. For Costom domain, enter `www.yourwebsitedomain.me` (if your domain is *yourwebsitedomain.me*.) Click **Save**.
 3.  Enjoy!
