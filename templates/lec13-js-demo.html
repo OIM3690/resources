@@ -16,8 +16,8 @@
         const bgColors = ["green", "yellow", "blue", "pink", "red", "orange"];
         const n = bgColors.length;
         const randIndex = Math.floor(Math.random() * n);
-        const b = document.querySelector("body");
-        b.style.backgroundColor = bgColors[randIndex];
+        const body = document.querySelector("body");
+        body.style.backgroundColor = bgColors[randIndex];
       }
 
       document.querySelector("h1").onclick = function(){
