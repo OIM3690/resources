@@ -144,16 +144,21 @@ You are required to provide detailed and constructive feedback on two projects o
 The final version of the project must include all necessary project files and should be uploaded to GitHub. 
 
 ## Grading Rubric:
+
 - Overall improvement in the quality and organization of the project's content and visual styles.
 - Implementation of JavaScript for various interactive and dynamic elements, such as:
   - Dynamic text updates based on user actions
   - Dynamic style changes based on user actions
   - Form validation
   - Slide show presentation (optional, but highly recommended)
+  - Implementation of browser storage (optional, but highly recommended)
+  - Integration with third-party APIs (optional)
   - Additional creative and functional features beyond the above examples.
 - Mobile compatibility for at least two pages, including the homepage.
 - Incorporation of clean and well-organized CSS.
+- Incorporation of CSS animation.
 - Incorporation of proper SEO principles.
+- Performance optimization (e.g., lazy loading images, deferred JavaScript execution)
 - The use of CSS frameworks such as Bootstrap or Tailwind CSS is encouraged to experiment with, but if used, it should be implemented in a **separate branch** of the project repository for easy comparison and review. The **`main` branch** should not include any CSS frameworks and will be the branch used for grading.
 
 ## Submission:
@@ -162,4 +167,4 @@ The final version of the project must include all necessary project files and sh
 - Please refer to Canvas for the deadline of this task.
 
 ---
-*updated: 1/31/2023*
+*updated: 3/29/2023*
