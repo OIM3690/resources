@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Exercise 23 - setTimeout</title>
+    <style>
+      body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin: 0;
+      }
+      h1 {
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+        background-color: #333333;
+        color: #f4f4f4;
+      }
+      main,
+      div,
+      form {
+        width: 80%;
+        margin: 10px auto;
+      }
+      .red {
+        color: red;
+      }
+      form {
+        text-align: center;
+        background-color: lightgray;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="center">Animation: Predicting Future Value of $10,000</h1>
+    </header>
+    <main>
+      <p>Use JavaScript to implement the following features :</p>
+      <ul>
+        <li>
+          Create an animation that shows the value of $10,000 at any interest
+          rate for each year in the future for a total of 10 years. The user
+          will enter a number for the "Interest Rate" and clicking the "Start"
+          button will initiate the animation.
+        </li>
+        <li>
+          The "Year" and "Value" should update
+          <strong class="red">every second</strong>. For example, after the
+          first second, the "Year" should change to 2024 and the "Value" should
+          change to $10,500.00 assuming an interest rate of 5%.
+        </li>
+        <li>
+          <strong class="red">Every second</strong>, the "Year" should increase
+          by 1 and the "Value" should increase based on the interest rate
+          entered by the user. For example, after 10 seconds, the "Year" should
+          be 2033 and the "Value" should be $16288.94 assuming an interest rate
+          of 5%.
+        </li>
+        <li>
+          After reaching the year 2033, the "Year" should be reset to 2023 and
+          the "Value" should be reset to $10000.00.
+        </li>
+        <li>
+          You must use the
+          <strong class="red"><code>setTimeout</code> </strong>function for the
+          animation and always display the values with two decimal places using
+          the
+          <strong
+            ><code
+              ><a href="https://www.w3schools.com/jsref/jsref_tofixed.asp"
+                >toFixed</a
+              ></code
+            ></strong
+          >
+          method.
+        </li>
+      </ul>
+    </main>
+    <form>
+      <div>
+        <label for="rate">Interest Rate: </label>
+        <input name="rate" size="2" type="text" id="rate" /> %
+      </div>
+      <div>
+        <button type="button">Start</button>
+      </div>
+      <div>
+        <p>Year: 2023</p>
+        <p>Value: $10000.00</p>
+      </div>
+    </form>
+  </body>
+</html>
