@@ -115,15 +115,15 @@ Build a professional, responsive contact form page, `contact.html`, which allows
 
 ---
 
-## Part 3: Development & AI Integration Reflection (hw2-reflection.md) (15 points)
+## 🤖 Part 3: Development & AI Integration Reflection (`hw2-reflection.md`) (15 points)
 
 In your `hw2-reflection.md`, you must reflect deeply on both your own development process and your interactions with AI tools. Clearly structure your reflection with the following sections:
 
-- Development Reflection (Your own coding experience):
+- **Development Reflection** (Your own coding experience):
   - Briefly describe your overall approach and strategy when developing each page.
   - Explain clearly **at least two challenges** you faced during coding and how you solved them.
   - Clearly state **at least two new insights or skills** you learned during your manual coding process (not including AI usage).
-- AI Interaction Log:
+- **AI Interaction Log**:
   - **AI Tool(s) Used**: Mention which AI tools you used and for what purposes.
   - **AI Prompts**: List the specific prompts you provided clearly.
   - **Original AI-generated code**: Include AI-generated code snippets clearly.
