@@ -1,170 +1,231 @@
-# OIM3690 Web Technologies - Term Project (subject to changes)
+# OIM3690 Web Technologies - Term Project (Spring 2025)
 
-# What is the Term Project?
+## Overview
 
-The term project requires you to conceptualize, design, and implement a website. This is an individual effort.
+This term project is worth **100 points total**. It is designed to give you hands-on experience with HTML, CSS, and JavaScript by requiring you to take on **two roles**: one to write a website idea and requirements, and the other to implement a site based on someone else’s idea. The project also emphasizes collaboration, iteration, and working with real-world developer tools like GitHub.
 
-The website must be published using following hosts:
-1. GitHub project repository
-2. (Optional) External web host or cloud service (if you want to use backend programs, i.e. PHP or Python.) It is important that the web hosting service must provide ad-free service.
+1. **Project Manager (PM)** - You will define a website idea and write a minimal **Product Requirements Document (PRD)**.
+2. **Developer (Dev)** - You will implement a website based on a classmate's PRD.
 
-You will be required to
-1. purchase/acquire a domain
-2. (optional) use web hosting service. You can
-     - pay a hosting fee for the service such as GoDaddy or BlueHost, which is total to about $10-$30
-     - or use (free) cloud service such as Heroku, Amazon Web Services (AWS), Google Cloud Platform, or DigitalOcean.
+All project work must be done in **a single shared public GitHub repository** owned by the PM. PMs must add their assigned Devs as collaborators.
 
-The Term Project is an individual assignment that will be developed in multiple stages throughout the term, with final submission due on the last day of class. Intermediate stages must be submitted on their respective due dates and will be graded. Late submissions will incur a penalty of 5 points per day. Extensions may be granted by the instructor if a request is made before the due date. All deliverables are mandatory and must be submitted, regardless of timeliness.
+### How will PM and Dev roles be assigned?
 
-# Examples of Term Project:
+Each student will take on both roles in this project:
 
-Your term project website may be based on any topic that conforms to [Babson's Policy on Terms of Use](https://www.babson.edu/terms-of-use/). This course focuses on browser-side development and does not cover databases, back-end frameworks and applications, or e-commerce. However, you can design their website in a way that can later be extended to support these features. Some examples of potential website topics include:
+- You will create your own PRD and act as the **Project Manager (PM)** for that idea.
+- You will also be randomly assigned **another student’s PRD** and build a website based on their specifications as the **Developer (Dev)**.
 
-1. A travel website dedicated to providing information about Hong Kong and its attractions, including night-life, dining options, sites to see, weather, fashion, and a currency converter.
-2. A website for a family-owned interior design business, featuring a portfolio of completed projects, artwork for sale, and decorating ideas.
-3. A website for a business that makes and sells clothing and accessories made from recycled products, including a catalog of products and information about the production process.
-4. A website dedicated to the Boston Red Sox baseball team, including video links to memorable moments in the team's history.
-5. A website for a Babson student organization that helps international students improve their logical, analytical and persuasive skills, featuring information about events, the executive board and how to become a member.
-6. A website dedicated to the life and inventions of Enzo Ferrari.
-7. A website featuring a student's personal account of a study-abroad trip to Italy, including pictures, experiences, and places to visit.
+The assignment of Dev-to-PRD will be announced after the PRD submission deadline. PMs are responsible for creating the repository and adding their assigned Dev as a collaborator.
 
+**Suggested naming convention for the repo**:Use a concise and meaningful name such as:
 
-It's important to note that the above examples are just suggestions and you are free to choose a topic of their choice.
+- `WebTech-[YourName]` (e.g., `WebTech-John-Doe`)
+- **or** `[ProjectTopic]` (e.g., `SustainableTravel`)  
 
-## Things You Can Do:
-
-- Use all the technologies covered in the course.
-- Use your own HTML/CSS/JavaScript code.
-
-## Things You May Not Do:
-
-- Use server-side scripts (unless proficient in the language and able to run them on a server)
-- Use JavaScript files not developed by you
-- Use web frameworks such as Django/Flask (Python), Ruby on Rails
-- Use CSS templates that have not been customized
-- Use website templates or pages developed by any Content Management Systems (CMS) such as WordPress, Joomla, or any website builders such as Weebly, Shopify, Wix and Squarespace.
+The repo name should clearly reflect either the PM’s identity or the website idea.
 
 ---
-# Getting Started
 
-To start your project, you need to create a **new public** repository on GitHub with a relevant name, such as "*WebTechProject*" or "*MyPersonalWebsite*".
+## Project Objectives
 
-# Project Proposal
+By the end of the project, you should be able to:
 
-This is a webpage that answers the following questions:
-
-- What is your website about?
-- What is the objective of your website?
-- Who is your target audience?
-- What content do you plan to include in each page of your website? As you think through your website, please remember that the website must have at least 4 pages of content besides the homepage, sitemap, and contact/feedback pages.
-
-## Submission:
-
-- Create a webpage, _proposal.html_, save it to project repository (**not** _WebTech_ repository).
-- Use necessary CSS to style this page.
-- **_Commit/push_** to GitHub.
-- Submit the URL of GitHub project repository to Canvas. 
-- Please refer to Canvas for the deadline of this task.
+- Translate high-level ideas into functional and interactive web experiences
+- Collaborate on a real-world development task through GitHub
+- Apply web technologies such as HTML, CSS, and JavaScript
+- Give and receive technical feedback via GitHub Issues
+- Reflect on how collaboration and AI tools influenced your development process
 
 ---
-# Project Website Domain
 
-## What you need to do:
-- Acquire a domain name for the project website (instructions will be provided in class).
-- Ensure that an _index.html_ file is located in your project repository.
-- Connect the purchased domain to the GitHub pages of the project repository and make the website live.
-- Test the website to ensure that it is functioning correctly and all links are working
+## Project Timeline, Deliverables, and Grading
 
-## Submission:
-- Add [Description and Website](https://stackoverflow.com/a/64942409/941742) to your project repository on GitHub.
-- Submit the URL of your website domain to Canvas.
-- Please refer to Canvas for the deadline of this task.
+| Task                      | Deliverable                              | Points | Suggested Deadline | How to Submit                                                       |
+| ------------------------- | ---------------------------------------- | ------ | ------------------ | ------------------------------------------------------------------- |
+| Define your idea          | `pm-docs/PRD.md` and `wireframe.png/pdf` | 20 pts | 4/12               | Push to GitHub repo (created by PM) and submit repo link on Canvas  |
+| Set up team repo          | PM adds Dev as collaborator on GitHub    | —      | 4/15               | Confirmed via GitHub activity (no separate Canvas submission)       |
+| First version of the site | Project files, GitHub tag `v1.0`         | 40 pts | 4/22               | Push to same GitHub repo, tag as `v1.0`, submit repo link on Canvas |
+| PM–Dev communication      | GitHub Issues screenshots                | 10 pts | 4/25               | Screenshot Issues, submit to Canvas                                 |
+| Final version             | Final code, GitHub tag `final`           | 20 pts | 5/3                | Push to GitHub repo, tag as `final`, submit repo link on Canvas     |
+| Reflection                | `reflection.md`                          | 10 pts    | 5/3                | Add to repo and submit to Canvas                                    |
 
----
-# Project Website Planning
+### 🧭 Grading Notes: Who Gets Credit for What?
 
-## What you need to do:
-1. Review the article "[Planning a simple website](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure#Planning_a_simple_website)" on developer.mozilla.org.
-2. In your project repository, create a folder called "*website-plan*" which should include the following items:
-  1. A visual representation of the project homepage (index.html) created using a tool such as Figma, Moqups, PowerPoint, or by drawing on paper and taking a photo, following step 2 in the aforementioned article.
-  2. A rough sitemap outlining the structure of the website, following step 5 in the article.
-
-## Submission:
-- **_Commit/push_** to GitHub.
-- Create tag `'plan'` for current release. Learn more on [Managing releases in a repository](https://docs.github.com/en/github/administering-a-repository/releasing-projects-on-github/managing-releases-in-a-repository).
-- Please refer to Canvas for the deadline of this task.
+- **Define your idea** (20 pts): Your score as **PM**, based on the PRD and wireframe you created.
+- **First version of the site** (40 pts): Your score as **Dev**, based on how you implemented another student's idea.
+- **Final version** (20 pts): Your score as **Dev**, reflecting code quality, completion, and improvements.
+- **PM–Dev communication** (10 pts): Shared score. Both team members are responsible for active, documented collaboration.
+- **Reflection** (10 pts): Your individual score based on your submitted reflection files.
 
 ---
-# Project First Version 
 
+## Part 1: PM Role - Define a Website Idea
 
-## Grading Rubric:
+You will design a minimal PRD and sketch a simple wireframe. This will serve as the input for another student to implement as a website.
 
-- Create HTML webpages with contents that support the overall objective, including but not limited to:
-  - Homepage should be named *index.html* and should be the main point of entry for the website.
-  - A navigation bar that is located in the same place on each page to improve user navigation and accessibility.
-  - A sitemap page, similar to the example provided by [Apple Site Map](https://www.apple.com/sitemap/) to provide an overview of the website's structure and navigation.
-  - Use of images that are appropriately used and adequate to support the website's content.
-  - Use of `alt` and `title` attributes for all images to improve accessibility and SEO.
-  - Appropriate use of flexbox and/or grid layout to create a visually appealing and responsive design.
-  - Use of a form for user input, such as a contact or feedback form.
-  - Optional inclusion of a table to display data in a structured format.
-  - Optional inclusion of video or YouTube video to enhance the user experience.
-  - Optional inclusion of an audio file with controls, such as a music player.
-  - Create a [favicon](https://developer.mozilla.org/en-US/docs/Glossary/Favicon) and add it to the website, following the guidelines provided by [how to](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#Adding_custom_icons_to_your_site) or using an [online favicon generator](https://favicon.io/).
-  - Attention to SEO principles should be paid while creating the website, such as by using `<meta>` tags and optimizing the website's structure and content.
-- At least 2 content pages (besides the homepage, sitemap, and contact/feedback pages) should be completed with informative and relevant content to provide value to the website's visitors.
-- The website should have a consistent look and feel across all pages, through the use of colors, fonts, backgrounds, and styles.
-- Please DO NOT TREAT IT LIKE A FIRST DRAFT.
+### Deliverables
 
-## Submission:
+1. **PRD (Product Requirements Document)** - A concise document that includes:
 
-- All the HTML files should be directly located under project root folder.
-- **_Commit/push_** to GitHub.
-- Create tag `'v1.0'` for current release. Learn more on [Managing releases in a repository](https://docs.github.com/en/github/administering-a-repository/releasing-projects-on-github/managing-releases-in-a-repository).
-- Please refer to Canvas for the deadline of this task.
+   - Project title
+   - One-sentence goal of the website
+   - 3–5 core features (written as bullet points or user stories)
+   - List of 4–6 intended pages (e.g., homepage, about, gallery, contact)
+   - Optional: brief notes on design/interaction (e.g., dark mode toggle)
 
----
-# Project Peer Review 
+2. **Wireframe** - A sketch of the homepage layout.
 
-You are required to provide detailed and constructive feedback on two projects of your classmates. The feedback should be given in the form of GitHub Issues, and must include at least two technical issues/bugs/suggestions as well as two suggestions on content for each project.
+   - Can be hand-drawn, or created using tools like PowerPoint, Google Slides, Figma, Moqups, etc.
+   - Upload as an image or PDF.
+   - You are encouraged (but not required) to include rough layout ideas for other key pages as well, especially if they include major features or complex structures.
 
-## Grading Rubric:
-- Feedback should be clear, specific, and actionable.
-- Feedback should be constructive and aim to improve the project.
-- Feedback should be relevant to the project and its goals.
+3. **Submission (by 4/12)**
 
-## Submission:
-- Submit screenshots of the issues created for the two projects (including the title and body of issue) on Canvas.
-- Please refer to Canvas for the deadline of this task.
+   - Create a public GitHub repository for your project
+   - Create a folder `pm-docs/` and save the PRD as `PRD.md` and wireframe as `wireframe.png` or `wireframe.pdf`
+   - Push to GitHub and submit your repo link on Canvas
+
+### Notes
+
+- This is not a design class—the wireframe can be simple.
+
+- **Recommended Resource**: For help thinking through the structure of your website, read [Planning a simple website (MDN)](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Structuring_documents#planning_a_simple_website). This guide explains how to break down an idea into pages and content, and how to sketch out the layout in a meaningful way.
+
+- The PRD should focus on **clear functionality**, not fancy features.
+
+- **Trivial projects such as personal websites or digital resumes are not allowed** (they were covered in previous assignments). Think creatively about small tools, communities, fan pages, info hubs, or interactive pages that provide value to a user.
 
 ---
-# Project Final Version
 
-The final version of the project must include all necessary project files and should be uploaded to GitHub. 
+## Part 2: Dev Role - Build a Website
 
-## Grading Rubric:
+### Developer Responsibilities
 
-- Overall improvement in the quality and organization of the project's content and visual styles.
-- Implementation of JavaScript for various interactive and dynamic elements, such as:
-  - Dynamic text updates based on user actions
-  - Dynamic style changes based on user actions
-  - Form validation
-  - Slide show presentation (optional, but highly recommended)
-  - Implementation of browser storage (optional, but highly recommended)
-  - Integration with third-party APIs (optional)
-  - Additional creative and functional features beyond the above examples.
-- Mobile compatibility for at least two pages, including the homepage.
-- Incorporation of clean and well-organized CSS.
-- Incorporation of CSS animation.
-- Incorporation of proper SEO principles.
-- Performance optimization (e.g., lazy loading images, deferred JavaScript execution)
-- The use of CSS frameworks such as Bootstrap or Tailwind CSS is encouraged to experiment with, but if used, it should be implemented in a **separate branch** of the project repository for easy comparison and review. The **`main` branch** should not include any CSS frameworks and will be the branch used for grading.
+- PM adds you as a collaborator on their GitHub repo
+- Use the same repo to develop and submit all your code
+- Follow the PRD as closely as reasonable—if parts are unclear, make reasonable assumptions and document them
 
-## Submission:
-- **_Commit/push_** to GitHub.
-- Create tag `'final'` for this release.
-- Please refer to Canvas for the deadline of this task.
+### Requirements
+
+- **Use only browser-side technologies:** HTML, CSS, JavaScript
+- **No backend required**, though you may use `fetch()` to load static JSON data or files
+- You **may not use** CMS platforms (e.g. WordPress), site builders (Wix, Squarespace), or unmodified templates
+- You **may** use:
+  - CSS frameworks (Tailwind, Bootstrap) — only in a separate branch
+  - Icons/fonts/images that are free and properly credited
+
+### Features to include (based on the PRD)
+
+- At least **4 pages** (including homepage)
+- Navigation bar present on all pages
+- Semantic HTML, clear structure
+- Responsive layout (Flexbox/Grid)
+- Form with validation (e.g., feedback or contact)
+- JavaScript interactions (**at least three from the list below**):
+  - DOM manipulation (e.g., toggling sections, dynamic content update)
+  - Event handling (e.g., click, hover, keyboard input)
+  - Form validation with feedback messages
+  - Dynamic style changes (e.g., theme toggle, responsive animations)
+  - Fetch and display static JSON data (e.g., list of items, quotes)
+  - Custom slideshow or tab-switching logic
+  - Basic use of browser storage (e.g., save theme or preferences)
+- Add a favicon and use appropriate meta tags for SEO
+
+> **Reminder**: You must write your own JavaScript. If you use small external libraries (e.g., to create sliders), you must understand and explain them. React, Vue, or other full frameworks are **not required or expected** in this course.
+
+### Folder Structure
+
+```text
+project-root/
+  index.html
+  about.html
+  contact.html
+  ...
+  assets/
+    css/
+    js/
+    images/
+  pm-docs/  <-- From Part 1
+```
+
+**Note**: You do not need to follow these filenames exactly. What matters is that your folder structure is organized, clear, and consistent with your PRD and navigation.
+
+### Use of AI Tools
+
+You are allowed (and encouraged) to use AI tools such as ChatGPT, GitHub Copilot, or other code assistants.
+
+**However, we strongly recommend this workflow:**
+
+1. **Write your code by yourself first**, based on your understanding of HTML/CSS/JS.
+2. Use AI tools for suggestions, debugging, or to explore alternative solutions.
+3. Document any major AI-generated components in your code with comments.
+
+Your understanding of your own code is essential. You may be asked to explain any part of your implementation.
+
+### Submission (by 4/22)
+
+- Push your code to the shared GitHub repo
+- Create a release with tag `v1.0`
+- Submit the repo link on Canvas
 
 ---
-*updated: 3/29/2023*
+
+## Final Version & Collaboration Check
+
+### PM–Dev Communication Requirement (by 4/25)
+
+To ensure active collaboration, each project team must demonstrate evidence of thoughtful communication between the PM and the Dev using **GitHub Issues**.
+
+- Each team must have at least **two GitHub Issues** related to the project.
+- These issues should include:
+  - At least one **clarifying or implementation-related question** raised by the Dev
+  - At least one **feature discussion, update, or decision** raised by the PM
+  - Additional replies or follow-up comments to show it was a real conversation (not one-sided)
+- Conversations can cover areas such as: scope clarification, feature trade-offs, aesthetic decisions, technical constraints, or helpful resources.
+- These Issues must be visible in the shared GitHub repo.
+- Submit **screenshots of the GitHub Issues** on Canvas to confirm communication and completeness.
+
+### Final Submission (by 5/03)
+
+- Make final improvements based on communication and feedback
+- Push your changes to the shared GitHub repo
+- Tag the release as `final`
+- Submit the repo link on Canvas
+
+### Reflection Requirement (by 5/03)
+
+Each student must write their own reflection in one of the following files:
+
+- PM: `pm-reflection.md`
+- Dev: `dev-reflection.md`
+
+These files should be added to the project GitHub repository.
+
+#### PM reflection prompts:
+
+- How did you come up with your idea?
+- How well did the collaboration with your developer work?
+- What did you learn about writing requirements?
+- Did you use any AI tools in this process? How?
+
+#### Dev reflection prompts:
+
+- How did you interpret and implement someone else’s idea?
+- What were the challenges in development and collaboration?
+- Which parts did you use AI tools for, and what did you learn from that?
+
+These reflections help you pause and think critically about your process. They can also be used to award bonus points or help explain unclear design decisions.
+
+---
+
+## Deployment (Required) & Domain (Optional)
+
+- You are **required** to deploy your site using **GitHub Pages** (free)
+- You are encouraged to optionally acquire a custom domain and link it to your deployed site
+  - You can get a **free domain** (e.g., `.me`, `.tech`, etc.) via [GitHub Student Developer Pack](https://education.github.com/pack)
+- If you're interested in hosting dynamic content, explore free cloud services such as Render, Vercel, or Netlify
+
+---
+
+*Updated*: *2025/03/31*
