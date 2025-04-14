@@ -5,66 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Image Processing using JavaScript</title>
   </head>
+
   <body>
-    <canvas height="333" id="original-canvas" width="500">
-      Your browser does not support the HTML5 canvas tag.
-      <img alt="class" id="tiger" src="images/tiger1.jpg" width="500" />
-    </canvas>
-    <canvas height="333" id="myCanvas" width="500">
-      Your browser does not support the HTML5 canvas tag.
-    </canvas>
+    <canvas id="original-canvas"></canvas>
+    <canvas id="myCanvas"></canvas>
     <div>
-      <button id="btn-1">Change</button>
+      <button id="btn-1">Red Filter</button>
       <button id="btn-2">Grayscale</button>
       <button id="btn-3">Negative</button>
       <h2 id="rgb-info"></h2>
     </div>
 
     <script>
-      const tigerImage = document.getElementById("tiger");
-      const originalCanvas = document.getElementById("original-canvas");
-      const rgbInfo = document.getElementById("rgb-info");
+      document.addEventListener("DOMContentLoaded", function () {
+        // Create image object and set the source
+        const image = new Image();
+        image.src = "images/tiger1.jpg";
 
-      window.onload = function () {
-        originalCanvas.getContext("2d").drawImage(tigerImage, 0, 0);
-      };
+        // Get canvas elements and their 2D drawing contexts
+        const originalCanvas = document.getElementById("original-canvas");
+        const myCanvas = document.getElementById("myCanvas");
+        const originalContext = originalCanvas.getContext("2d");
+        const ctx = myCanvas.getContext("2d");
 
-      function pick(event) {
-        const x = event.layerX;
-        const y = event.layerY;
-        const pixel = originalCanvas.getContext("2d").getImageData(x, y, 1, 1);
-        const pixelData = pixel.data;
-        const rgba =
-          "rgba(" +
-          pixelData[0] +
-          ", " +
-          pixelData[1] +
-          ", " +
-          pixelData[2] +
-          ", " +
-          pixelData[3] / 255 +
-          ")";
-        rgbInfo.style.background = rgba;
-        rgbInfo.textContent = rgba;
-        rgbInfo.style.color = "white";
-      }
-      originalCanvas.addEventListener("mousemove", pick);
+        const rgbInfo = document.getElementById("rgb-info");
 
-      const c = document.getElementById("myCanvas");
-      const ctx = c.getContext("2d");
+        // When the image has loaded, draw it on the canvas
+        image.onload = function () {
+          // Resize canvas to match the image size
+          originalCanvas.width = image.width;
+          originalCanvas.height = image.height;
+          myCanvas.width = image.width;
+          myCanvas.height = image.height;
 
-      function changePic() {
-        ctx.drawImage(tigerImage, 0, 0);
-        const imgData = ctx.getImageData(0, 0, c.width, c.height);
+          // Draw image on the original canvas
+          originalContext.drawImage(image, 0, 0);
 
-        // create red channel filter by removing all the other colors
-        for (let i = 0; i < imgData.data.length; i += 4) {
-          // imgData.data[i] = 0;
+          // Add event to show color info when hovering over image
+          originalCanvas.addEventListener("mousemove", pick);
+        };
+
+        // Display RGBA value of the pixel under the mouse
+        function pick(event) {
+          const x = event.layerX;
+          const y = event.layerY;
+
+          // Get pixel data at mouse location (1x1 pixel)
+          const pixel = originalContext.getImageData(x, y, 1, 1);
+          const pixelData = pixel.data;
+
+          const rgba =
+            "rgba(" +
+            pixelData[0] +
+            ", " +
+            pixelData[1] +
+            ", " +
+            pixelData[2] +
+            ", " +
+            pixelData[3] / 255 +
+            ")";
+          rgbInfo.style.background = rgba;
+          rgbInfo.textContent = rgba;
+          rgbInfo.style.color = "white";
         }
-        ctx.putImageData(imgData, 0, 0);
-      }
 
-      document.getElementById("btn-1").onclick = changePic;
+        // Duplicate event binding (can be removed if needed)
+        originalCanvas.addEventListener("mousemove", pick);
+
+        // Red channel filter (you can modify the RGB values here)
+        function redFilter() {
+          // Draw image on second canvas
+          ctx.drawImage(image, 0, 0);
+
+          // Get image pixel data
+          const imgData = ctx.getImageData(
+            0,
+            0,
+            myCanvas.width,
+            myCanvas.height
+          );
+
+          // Loop through every pixel (RGBA = 4 values per pixel)
+          for (let i = 0; i < imgData.data.length; i += 4) {
+            // Example: to emphasize red, you could zero out G and B like this:
+            // imgData.data[i + 1] = 0; // green
+            // imgData.data[i + 2] = 0; // blue
+          }
+
+          // Put modified pixel data back onto the canvas
+          ctx.putImageData(imgData, 0, 0);
+        }
+
+        // Attach button to the filter function
+        document.getElementById("btn-1").addEventListener("click", redFilter);
+      });
     </script>
   </body>
 </html>
