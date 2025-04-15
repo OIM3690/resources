@@ -178,7 +178,7 @@ You will build a simplified Blackjack-style game using vanilla JavaScript. This 
 ### 📁 Starter Files
 
 - Download the starter HTML: [`hw3-3-blackjack.html`](hw3-3-blackjack.html)  
-- All card images are located in the folder [`images/cards/`](images/cards). You can also download the zip file, [cards.zip](images/cards/cards.zip), and extract it to the same folder.
+- All card images are located in the folder [`images/cards/`](images/cards). You can also download the zip file, [cards.zip](images/cards.zip), and extract it to the same folder.
 
 ### ✅ Required Features
 
