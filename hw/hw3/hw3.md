@@ -112,7 +112,7 @@ You will add interactivity to a sample project gallery page, `hw3-2-projects.htm
 
 ### 📁 Starter File
 
-Please download the starter file: [`hw3-2-projects.html`](/hw3-2-projects.html) and the accompanying JavaScript file: [`hw3-2.js`](/hw3-2.js) to get started.
+Please download the starter file: [`hw3-2-projects.html`](/hw3-2-projects.html).
 
 ### ✅ Required Features
 
@@ -150,6 +150,13 @@ Please download the starter file: [`hw3-2-projects.html`](/hw3-2-projects.html) 
 - (Optional) Filtering and searching should work together (e.g., category "Web" + search "portfolio").
 - (Optional) Choosing "Sort Z–A" should reorder the visible project cards alphabetically from Z to A.
 
+### ❗ Important Requirement
+
+You **must not** modify the given HTML file (`hw3-1-index.html`).
+
+- All behavior and logic must be implemented in `hw3-1.js`.
+- Use the existing buttons and input already defined in the HTML.
+
 ### 💡 Getting Started Tips
 
 You may find the following techniques helpful:
@@ -171,7 +178,7 @@ You will build a simplified Blackjack-style game using vanilla JavaScript. This 
 ### 📁 Starter Files
 
 - Download the starter HTML: [`hw3-3-blackjack.html`](/hw3-3-blackjack.html)  
-- All card images will be located in the folder `images/cards/`.  
+- All card images are located in the folder [`images/cards/`](/images/cards). You can also download the zip file, [cards.zip](images/cards/cards.zip), and extract it to the same folder.
 
 ### ✅ Required Features
 
