@@ -163,7 +163,7 @@ You are allowed (and encouraged) to use AI tools such as ChatGPT, GitHub Copilot
 
 Your understanding of your own code is essential. You may be asked to explain any part of your implementation.
 
-### Submission (by 4/22)
+### Submission (by 4/23)
 
 - Push your code to the shared GitHub repo
 - Create a release with tag `v1.0`
@@ -173,7 +173,7 @@ Your understanding of your own code is essential. You may be asked to explain an
 
 ## Final Version & Collaboration Check
 
-### PM–Dev Communication Requirement (by 4/25)
+### PM–Dev Communication Requirement (by 4/26)
 
 To ensure active collaboration, each project team must demonstrate evidence of thoughtful communication between the PM and the Dev using **GitHub Issues**.
 
