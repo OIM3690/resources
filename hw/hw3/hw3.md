@@ -53,7 +53,7 @@ This exercise will help you practice DOM manipulation, event handling, and class
 
 ### 📁 Starter File
 
-Download the starter file: [`hw3-1-index.html`](/hw3-1-index.html).
+Download the starter file: [`hw3-1-index.html`](hw3-1-index.html).
 
 ### ✅ Required Features
 
@@ -89,7 +89,7 @@ Implementing both features is required for full credit.
 
 You **must not** modify the given HTML file (`hw3-1-index.html`).
 
-- All behavior and logic must be implemented in `hw3-1.js`.
+- All behavior and logic must be implemented in `scripts/hw3-1.js`.
 - Use the existing buttons already defined in the HTML.
 
 ### 💡 Getting Started Tips
@@ -112,7 +112,7 @@ You will add interactivity to a sample project gallery page, `hw3-2-projects.htm
 
 ### 📁 Starter File
 
-Please download the starter file: [`hw3-2-projects.html`](/hw3-2-projects.html).
+Please download the starter file: [`hw3-2-projects.html`](hw3-2-projects.html).
 
 ### ✅ Required Features
 
@@ -154,7 +154,7 @@ Please download the starter file: [`hw3-2-projects.html`](/hw3-2-projects.html).
 
 You **must not** modify the given HTML file (`hw3-1-index.html`).
 
-- All behavior and logic must be implemented in `hw3-1.js`.
+- All behavior and logic must be implemented in `scripts/hw3-1.js`.
 - Use the existing buttons and input already defined in the HTML.
 
 ### 💡 Getting Started Tips
@@ -177,8 +177,8 @@ You will build a simplified Blackjack-style game using vanilla JavaScript. This 
 
 ### 📁 Starter Files
 
-- Download the starter HTML: [`hw3-3-blackjack.html`](/hw3-3-blackjack.html)  
-- All card images are located in the folder [`images/cards/`](/images/cards). You can also download the zip file, [cards.zip](images/cards/cards.zip), and extract it to the same folder.
+- Download the starter HTML: [`hw3-3-blackjack.html`](hw3-3-blackjack.html)  
+- All card images are located in the folder [`images/cards/`](images/cards). You can also download the zip file, [cards.zip](images/cards/cards.zip), and extract it to the same folder.
 
 ### ✅ Required Features
 
