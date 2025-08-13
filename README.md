@@ -1,12 +1,12 @@
-# Resources and Information for OIM3690 - _Web Technologies_
+# Resources and Information for OIM3690 - Web Technologies
 
-### Class Information:
+## Class Information:
 
-- [Syllabus](syllabus_2023spring.md)
-- [Project](project.md)
-- [Schedule](schedule_2023spring.md) (subject to changes)
+- [Syllabus](syllabus_2025fall.md)
+- [Schedule](schedule_2025fall.md) (subject to changes)
+- [Project](project.md) (details coming soon)
 
-### Resources
+## Resources
 
 - [Resources](cheatsheets/resources.md)
 - [JavaScript Resources](cheatsheets/JavaScript.md)
