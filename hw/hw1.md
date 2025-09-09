@@ -13,7 +13,7 @@ WebTech/
 ├── index-ai-creative.html
 ├── sitemap.html
 ├── styles/
-│   └── (your CSS files if any)
+│   └── (your CSS files)
 ├── images/
 │   └── (your images: profile photo, interest image, home.jpg, etc.)
 └── docs/
@@ -82,7 +82,7 @@ Your personal homepage should serve as a professional introduction. It must incl
 
 ### 2. Adding Basic Styles (15 points)
 
-Use **internal CSS** inside `<style>`.
+Use **external CSS**. Create a file named `hw1-styles.css` in the `styles/` folder and link it in your HTML files.
 
 **Allowed HTML Tags**:
 `html`, `head`, `body`, `h1`, `h2`, `h3`, `p`, `span`, `ul`, `li`, `ol`, `a`, `img`, `div`, `header`, `footer`
@@ -112,11 +112,11 @@ Use **internal CSS** inside `<style>`.
 * Unordered list linking to your exercises (`ex01.html`, `index.html`, etc.)
 * Horizontal line below the list (**challenge**: do not use `<hr>`)
 * Add [`home.jpg`](https://raw.githubusercontent.com/OIM3690/resources/main/templates/images/home.jpg) in `WebTech/images` and link it to `index.html`
-* Style consistently with `index.html`
+* Style consistently with `index.html` using the same `hw1-styles.css`
 
 ---
 
-👉 Important: After finishing Part 1, **commit and push with tag `hw1-manual`** before moving on to Part 2.
+👉 Important: After finishing Part 1, **commit and push with tag `hw1-manual`** before moving on to Part 2. This will make sure your manual version is saved before any AI modifications.
 
 ---
 
@@ -137,8 +137,9 @@ Use **internal CSS** inside `<style>`.
 * Before creating, write **`hw1-homepage-plan.md`** describing:
   * **The content you want to include**: List specific sections (e.g., About Me, Projects, Contact) and the type of information or media (e.g., text, images, links) you plan to add.
   * **Features or styles you would like AI to generate**: Specify any advanced layouts, animations, or design elements you want to explore with AI assistance (e.g., responsive design, hover effects, or creative color schemes).
+  * Sketch a rough layout or wireframe of your desired homepage structure if needed.
 * Then create **`index-ai-creative.html`** with AI assistance. You can use your `hw1-homepage-plan.md` as a guide to help the AI generate content and styles aligned with your goals.
-  * In the `<head>` section, add a comment noting which sections were generated or heavily modified by AI.
+  * Make sure it does not change the original `index-manual.html`, `index-ai-revised.html`, and `styles/hw1-styles.css`.
 
 ---
 
@@ -168,6 +169,7 @@ Create **`hw1-reflection.md`** in the `docs/` folder. It must include:
    * `sitemap.html`
    * `index-ai-revised.html` (AI revision of manual version)
    * `index-ai-creative.html` (AI creative version based on `hw1-homepage-plan.md`)
+   * `styles/hw1-styles.css` (external CSS file used in all HTML files)
    * `docs/hw1-homepage-plan.md`
    * `docs/hw1-reflection.md`
    * All images in `WebTech/images/`
@@ -178,4 +180,4 @@ Create **`hw1-reflection.md`** in the `docs/` folder. It must include:
 
 ---
 
-*Updated:* *9/07/2025*
+*Updated:* *9/09/2025*
