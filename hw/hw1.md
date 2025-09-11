@@ -124,9 +124,11 @@ Use **external CSS**. Create a file named `hw1-styles.css` in the `styles/` fold
 
 ### 1. AI Revised Version (20 points)
 
-* Make a copy of your manual file, `index-manual.html`, and rename it **`index-ai-revised.html`**.
+* Make a copy of your manual files, `index-manual.html` and `styles/hw1-styles.css`, and rename it **`index-ai-revised.html`** and **`styles/hw1-styles-ai-revised.css`**.
 * Use AI (Copilot or ChatGPT) to **revise** this file while staying within the same allowed tags and CSS as Part 1.
   * Examples: clearer spacing, improved color contrast, simplified CSS, better alt text, etc.
+  * Make sure it still looks like your original design.
+  * Make sure it does not change the original `index-manual.html` and `styles/hw1-styles.css`.
 * In the `<head>` section, add a comment noting which parts were revised with AI.
 
 ---
@@ -138,8 +140,9 @@ Use **external CSS**. Create a file named `hw1-styles.css` in the `styles/` fold
   * **The content you want to include**: List specific sections (e.g., About Me, Projects, Contact) and the type of information or media (e.g., text, images, links) you plan to add.
   * **Features or styles you would like AI to generate**: Specify any advanced layouts, animations, or design elements you want to explore with AI assistance (e.g., responsive design, hover effects, or creative color schemes).
   * Sketch a rough layout or wireframe of your desired homepage structure if needed.
-* Then create **`index-ai-creative.html`** with AI assistance. You can use your `hw1-homepage-plan.md` as a guide to help the AI generate content and styles aligned with your goals.
-  * Make sure it does not change the original `index-manual.html`, `index-ai-revised.html`, and `styles/hw1-styles.css`.
+* Then create **`index-ai-creative.html` and `styles/hw1-styles-ai-creative.css`** with AI assistance. You can use your `hw1-homepage-plan.md` as a guide to help the AI generate content and styles aligned with your goals.
+  * Make sure it does not change the original `index-manual.html`, `index-ai-revised.html`, `styles/hw1-styles.css` and `styles/hw1-styles-ai-revised.css`.
+  * Make sure it does not use any external libraries or packages, such as JavaScript frameworks or CSS frameworks. (Only vanilla HTML and CSS are allowed.)
 
 ---
 
@@ -170,6 +173,8 @@ Create **`hw1-reflection.md`** in the `docs/` folder. It must include:
    * `index-ai-revised.html` (AI revision of manual version)
    * `index-ai-creative.html` (AI creative version based on `hw1-homepage-plan.md`)
    * `styles/hw1-styles.css` (external CSS file used in all HTML files)
+   * `styles/hw1-styles-ai-revised.css` (external CSS file for AI revised version)
+   * `styles/hw1-styles-ai-creative.css` (external CSS file for AI creative version)
    * `docs/hw1-homepage-plan.md`
    * `docs/hw1-reflection.md`
    * All images in `WebTech/images/`
@@ -180,4 +185,4 @@ Create **`hw1-reflection.md`** in the `docs/` folder. It must include:
 
 ---
 
-*Updated:* *9/09/2025*
+*Updated:* *9/11/2025*
