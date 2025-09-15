@@ -109,10 +109,10 @@ Use **external CSS**. Create a file named `hw1-styles.css` in the `styles/` fold
 
 * Heading: "Work done in WebTech by \[Your Name]" (`h1`)
 * Horizontal line below heading
-* Unordered list linking to your exercises (`ex01.html`, `index.html`, etc.)
+* Unordered list linking to all of your work (`ex01.html`, `index.html`, `index-manual.html`, etc.)
 * Horizontal line below the list (**challenge**: do not use `<hr>`)
-* Add [`home.jpg`](https://raw.githubusercontent.com/OIM3690/resources/main/templates/images/home.jpg) in `WebTech/images` and link it to `index.html`
-* Style consistently with `index.html` using the same `hw1-styles.css`
+* Add [`home.jpg`](https://raw.githubusercontent.com/OIM3690/resources/main/templates/images/home.jpg) in `WebTech/images` and link it to `index-manual.html`. (If you don’t think the image fits well with your page, you are welcome to choose other options.)
+* Style consistently with `index-manual.html` using the same `hw1-styles.css`
 
 ---
 
@@ -185,4 +185,4 @@ Create **`hw1-reflection.md`** in the `docs/` folder. It must include:
 
 ---
 
-*Updated:* *9/11/2025*
+*Updated:* *9/15/2025*
