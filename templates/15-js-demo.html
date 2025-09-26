@@ -92,32 +92,26 @@
           changeBackgroundColor();
         });
 
+      const myImg = document.querySelector("#img-mailbox");
       function enlargeImage() {
-        const myImg = document.querySelector("#img-mailbox");
         let w = myImg.width;
         w = w + 10;
         if (w > 200) w = 30;
         myImg.width = w;
       }
-      document
-        .querySelector("#img-mailbox")
-        .addEventListener("mouseover", function () {
-          enlargeImage();
-        });
+      myImg.addEventListener("mouseover", function () {
+        enlargeImage();
+      });
 
-      function showTime() {
+      document.getElementById("timeBtn").addEventListener("click", () => {
         const now = new Date();
         const timeString = now.toLocaleTimeString();
         const dateString = now.toLocaleDateString();
         document.getElementById(
           "timeDisplay"
         ).textContent = `🕐 ${timeString} on ${dateString}`;
-      }
-      document.getElementById("timeBtn").addEventListener("click", () => {
-        showTime();
       });
 
-      // 4. Hide and Seek
       function toggleText() {
         const text = document.getElementById("hiddenText");
         if (text.classList.contains("hidden")) {
@@ -141,7 +135,7 @@
         }
       }
 
-      window.addEventListener("load", function () {
+      document.addEventListener("DOMContentLoaded", function () {
         console.log("🎮 Welcome to JavaScript Playground!");
         console.log(
           "💡 Try opening the Developer Tools and look at this console!"
