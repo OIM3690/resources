@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Homepage</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        transition: background-color 0.3s, color 0.3s;
+      }
+
+      body.alt-font {
+        font-family: "Courier New", monospace;
+      }
+
+      body.light {
+        background-color: #ffffff;
+        color: #000000;
+      }
+
+      body.dark {
+        background-color: #121212;
+        color: #ffffff;
+      }
+
+      nav {
+        background-color: #333;
+        padding: 1em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .nav-left a {
+        color: white;
+        margin-right: 1em;
+        text-decoration: none;
+      }
+
+      .nav-left a:hover {
+        text-decoration: underline;
+      }
+
+      body.alt-font {
+        font-family: "Courier New", monospace;
+      }
+
+      .theme-toggle button {
+        background-color: #555;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        padding: 0.5em 1.2em;
+        margin-left: 0.5em;
+        font-size: 0.9rem;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      .theme-toggle button:hover {
+        background-color: #777;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 2em auto;
+        padding: 1em;
+      }
+
+      footer {
+        text-align: center;
+        padding: 1em;
+        background-color: #333;
+        color: white;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+      }
+    </style>
+  </head>
+  <body class="light">
+    <nav>
+      <div class="nav-left">
+        <a href="#">Home</a>
+        <a href="hw3-2-projects.html">Projects</a>
+        <a href="hw3-3-blackjack.html">Blackjack</a>
+        <a href="hw3-4-app.html">My Small App</a>
+      </div>
+      <div class="theme-toggle">
+        <button id="toggle-theme">☯️ Toggle Theme</button>
+        <button id="toggle-font">🖊️ Toggle Font</button>
+      </div>
+    </nav>
+
+    <div class="container">
+      <section>
+        <h2>About Me</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel
+          felis nec metus gravida volutpat.
+        </p>
+      </section>
+
+      <section>
+        <h2>Hobbies</h2>
+        <ul>
+          <li>Reading</li>
+          <li>Traveling</li>
+          <li>Coding</li>
+        </ul>
+      </section>
+    </div>
+
+    <footer>&copy; 2025 My Personal Site</footer>
+
+    <script src="scripts/hw3-1.js"></script>
+  </body>
+</html>
