@@ -2,8 +2,8 @@
 
 ## Class Information:
 
-- [Syllabus](syllabus_2025fall.md)
-- [Schedule](schedule_2025fall.md) (subject to changes)
+- [Syllabus](syllabus_2026spring.md)
+- [Schedule](schedule_2026spring.md) (subject to changes)
 - [Project](project.md) (details coming soon)
 
 ## Resources
